@@ -1,0 +1,11 @@
+sync:
+  defaults:
+    ignore:
+      vcs: true
+      paths:
+        - ".mypy_cache"
+        - ".pytest_cache"
+        - ".tox"
+        - ".venv"
+        - ".vscode"
+        - "__pycache__"
